@@ -108,7 +108,7 @@ protected:
 			StPicoTrack * track = _rTrack.get( i );
 
 			fillTrack( nMtdTracks, track );
-			if ( _track.mMtdPidTraitsIndex >= 0 ){
+			if ( _track.mMtdPidTraitsIndex >= 0 && fabs(_track.mPt) > 0.01 ){
 				
 				_wTrack.add( _track );
 				_wMtdPid.add( _mtdPid );
