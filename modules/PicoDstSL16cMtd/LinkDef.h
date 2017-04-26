@@ -15,5 +15,7 @@
 #pragma link C++ class StPicoMtdPidTraits+;
 #pragma link C++ class StPicoMtdTrigger+;
 #pragma link C++ class StPicoTrack+;
+#pragma link C++ class StThreeVectorF+;
+#pragma link C++ class StThreeVector+;
 
 #endif 
