@@ -7,10 +7,10 @@
 #include "FemtoDstFormat/TClonesArrayReader.h"
 
 
-#include "PicoDstSL16cMTD/StPicoEvent.h"
-#include "PicoDstSL16cMTD/StPicoMtdHit.h"
-#include "PicoDstSL16cMTD/StPicoTrack.h"
-#include "PicoDstSL16cMTD/StPicoMtdPidTraits.h"
+#include "PicoDstSL16cMtd/StPicoEvent.h"
+#include "PicoDstSL16cMtd/StPicoMtdHit.h"
+#include "PicoDstSL16cMtd/StPicoTrack.h"
+#include "PicoDstSL16cMtd/StPicoMtdPidTraits.h"
 
 #include "vendor/loguru.h"
 
