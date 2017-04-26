@@ -9,7 +9,7 @@
 		</input>
 
 		<output>
-			<TFile url="FemotDst.root" />
+			<TFile url="out/FemotDst_{jobIndex}.root" />
 		</output>
 
 		<histograms>
