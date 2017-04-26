@@ -5,7 +5,7 @@
 
 #include "ProductionUtils/RunMapFactory.h"
 
-#include "PicoDstSL16cMTD/StPicoMtdPidTraits.h"
+#include "PicoDstSL16cMtd/StPicoMtdPidTraits.h"
 
 #include "FemtoDstFormat/BranchWriter.h"
 #include "FemtoDstFormat/TClonesArrayWriter.h"
