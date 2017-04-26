@@ -27,3 +27,17 @@
 *.exe
 *.out
 *.app
+
+*.dblite
+
+modules/StarClassLibrary/CVS/
+
+modules/PicoDstSL16cMtd/DictionaryPicoDstSL16cMTD\.cpp
+
+*.pcm
+
+*.root
+
+*.log
+
+bin/list\.lis
