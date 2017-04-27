@@ -136,7 +136,7 @@ protected:
 		_track.mEta = pMom.pseudoRapidity();
 		_track.mPhi = pMom.phi();
 		
-		_track.mNHitsFit  = track->nHitsFit();
+		_track.mNHitsFit  = track->nHitsFit() * track->charge();
 		_track.mNHitsMax  = track->nHitsMax();
 		_track.mNHitsDedx = track->nHitsDedx();
 
