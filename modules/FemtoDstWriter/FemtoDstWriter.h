@@ -97,6 +97,7 @@ protected:
 		_event.mRunIndex = rmf.indexForRun( _event.mRunId );
 		_event.mEventId  = event->eventId();
 		_event.mTriggerWordMtd = event->triggerWordMtd();
+		_event.mGRefMult = event->grefMult();
 
 		_wEvent.set( _event );
 
